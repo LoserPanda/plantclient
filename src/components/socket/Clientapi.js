@@ -15,18 +15,18 @@ class Clientapi extends Component {
         // }));
 
         this.socket = io('http://176.34.158.245:3005');
-        this.socket.emit('hello', "joujopiiujou");
+        this.socket.emit('live', "client socket joujou");
 
         this.socket.on('live', function (data) {
-            console.log('socket connected');
-            addMessage(data);
+            console.log('socket connected', data);
+            // addMessage(data);
         });
 
-        const addMessage = data => {
-            console.log(data);
-            this.setState({results: [...this.state.results, data]});
-            console.log(this.state.results);
-        };
+        // const addMessage = data => {
+        //     console.log(data);
+        //     this.setState({results: [...this.state.results, data]});
+        //     console.log(this.state.results);
+        // };
     }
 
     render() {
