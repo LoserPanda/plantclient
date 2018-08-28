@@ -10,6 +10,8 @@ import Route from "react-router-dom/es/Route";
 import NotFound from "./components/error/Not Found";
 import Home from "./components/home/Home";
 import Login from "./components/login/Login";
+import Clientapi from "./components/socket/Clientapi";
+
 // import Login from "./login/Login";
 
 class App extends Component {
@@ -34,6 +36,7 @@ class App extends Component {
                             <Route component={NotFound}/>
                         </Switch>
                     </Grid>
+                    <Clientapi/>
                 </div>
             </BrowserRouter>
         );
