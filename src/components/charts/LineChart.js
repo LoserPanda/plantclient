@@ -11,25 +11,24 @@ class LineChart extends Component {
         fetch(url.url)
             .then(response => {
                 if (response.ok) {
-                    return response.json()
+                    return response.json();
                 }
                 else {
                     throw new Error('Data not found')
                 }
             })
-            .then(response => this.setState({
-                results: response.results.filter((r) => {
-                    return r.name === 'Java'
-                })
-            }));
+            .then(data => {
+                this.setState({results: data});
+                console.log(this.state);
+            });
     }
 
     render() {
-
         const dataArr = this.state.results.map((d) => {
+
             return {
-                x: d.year + '/' + d.quarter,
-                y: parseFloat(d.count / 1000)
+                x: d.ID,
+                y: parseFloat(d.light)
             }
         });
 
