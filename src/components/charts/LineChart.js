@@ -24,11 +24,12 @@ class LineChart extends Component {
     }
 
     render() {
-        const dataArr = this.state.results.map((d) => {
+        const dataArr = this.state.results.filter(d => d.ID % 100 === 0).map((d) => {
 
             return {
                 x: d.ID,
                 y: parseFloat(d.light)
+
             }
         });
 
@@ -36,12 +37,13 @@ class LineChart extends Component {
             <div>
                 <XYPlot
                     xType="ordinal"
-                    width={800}
-                    height={400}>
+                    width={600}
+                    height={300}
+                    yDomain={[0, 100]}>
                     <VerticalGridLines/>
                     <HorizontalGridLines/>
                     <XAxis title="Time"/>
-                    <YAxis title="Number"/>
+                    <YAxis title="Value"/>
                     <LineSeries
                         data={dataArr}
                         style={{stroke: 'green', strokeWidth: 2}}/>
