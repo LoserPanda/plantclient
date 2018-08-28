@@ -9,6 +9,7 @@ import Header from './components/static/Header';
 import Route from "react-router-dom/es/Route";
 import NotFound from "./components/error/Not Found";
 import Home from "./components/home/Home";
+import Login from "./components/login/Login";
 // import Login from "./login/Login";
 
 class App extends Component {
@@ -27,7 +28,7 @@ class App extends Component {
                             {/*<Route path="/" component={CountryList}/>*/}
                             {/*<Route path="//:code" name="readcountry" component={ReadCountry}/>*/}
                             {/*<Route path="//:code" name="updatecountry" component={UpdateCountry}/>*/}
-                            {/*<Route path="//:id" name="readcity" component={ReadCity}/>*/}
+                            <Route path="/login" component={Login}/>
                             <Route exact path="/" component={Home}/>
                             <Route path="/sensordata" component={LineChart}/>
                             <Route component={NotFound}/>

@@ -21,6 +21,7 @@ class Navigation extends Component {
                         </NavDropdown>
                         <NavItem eventKey={3} href="/">Chat</NavItem>
                         <NavItem eventKey={4} href="/profile">Profile</NavItem>
+                        <NavItem eventKey={5} href="/login">Login</NavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
