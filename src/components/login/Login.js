@@ -5,7 +5,7 @@ class Login extends Component {
     render() {
         return (
             <div>
-                <h1>Bananaproject</h1>
+                <h1>The Banana Project Login Page</h1>
             </div>
         );
     }
