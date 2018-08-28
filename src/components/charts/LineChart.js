@@ -24,10 +24,10 @@ class LineChart extends Component {
     }
 
     render() {
-        const dataArr = this.state.results.filter(d => d.ID % 100 === 0).map((d) => {
-
+        const dataArr = this.state.results.map((d) => {
+            console.log(dataArr);
             return {
-                x: d.ID,
+                x: d.time,
                 y: parseFloat(d.light)
 
             }

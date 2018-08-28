@@ -18,7 +18,7 @@ class Clientapi extends Component {
         this.socket.emit('live', "client socket joujou");
 
         this.socket.on('live', function (data) {
-            console.log('socket connected', data);
+            console.log(data);
             // addMessage(data);
         });
 
