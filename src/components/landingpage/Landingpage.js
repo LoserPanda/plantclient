@@ -5,8 +5,10 @@ class Landingpage extends Component {
     render() {
         return (
             <div>
-                <Header/>
-                <h1>The Landing Page</h1>
+                <div className="jumbotron">
+                    <Header/>
+                </div>
+                <h1>The Landing page</h1>
             </div>
         );
     }
