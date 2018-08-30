@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Login from "../landingpage/Login";
 import NotFound from "../error/Not Found";
 import LineChart from "../charts/LineChart";
 import Home from "../home/Home";
@@ -27,9 +26,8 @@ class Loggedinpage extends Component {
                             {/*<Route path="/" component={CountryList}/>*/}
                             {/*<Route path="//:code" name="readcountry" component={ReadCountry}/>*/}
                             {/*<Route path="//:code" name="updatecountry" component={UpdateCountry}/>*/}
-                            <Route path="/login" component={Login}/>
                             <Route exact path="/" component={Home}/>
-                            <Route path="/sensordata" component={LineChart}/>
+                            // <Route path="/sensordata" component={LineChart}/>
                             <Route component={NotFound}/>
                         </Switch>
                     </Grid>
