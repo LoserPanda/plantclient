@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
-class Header extends Component {
+class Footer extends Component {
 
     render() {
         return (
             <div>
-                <h1>The Banana Project Header</h1>
+                <h1>The Banana Project Footer</h1>
             </div>
         );
     }
 }
 
-export default Header;
+export default Footer;

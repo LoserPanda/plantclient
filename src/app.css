@@ -6,6 +6,11 @@
 }
 
 body {
-  color: magenta;
-  background-color: green;
+  /*color: magenta;*/
+  /*background-color: green;*/
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
