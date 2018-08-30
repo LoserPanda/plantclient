@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
-import {XYPlot, XAxis, YAxis, VerticalGridLines, HorizontalGridLines, LineSeries} from 'react-vis';
+import {XYPlot, XAxis, YAxis, VerticalGridLines, HorizontalGridLines, LineSeries, MarkSeries, Voronoi} from 'react-vis';
 import url from '../../config/sensordataurl';
 import '../../../node_modules/react-vis/dist/style.css';
 
 class LineChart extends Component {
+
 
     state = {results: []};
 
@@ -19,17 +20,14 @@ class LineChart extends Component {
             })
             .then(data => {
                 this.setState({results: data});
-                console.log(this.state);
             });
     }
 
     render() {
         const dataArr = this.state.results.map((d) => {
-            console.log(dataArr);
             return {
                 x: d.time,
                 y: parseFloat(d.light)
-
             }
         });
 
