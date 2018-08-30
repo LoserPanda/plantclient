@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+    <title>the bananaproject sun</title>
+        <g class="layer">
+            <title>Layer 1</title>
+            <ellipse cx="250" cy="250" fill="#ffffff" id="svg_1" opacity="1" rx="240" ry="240" stroke="#490606" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0"/>
+            <path d="m191.15002,218.20087c240.85978,-62.23004 59.43294,263.73682 58.96366,262.79844c-0.46927,-0.93838 -58.96366,-262.79844 -58.96366,-262.79844z" fill="orange" id="svg_26" opacity="0.8" stroke="#490606" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0"/>
+            <path d="m184.52868,28.34889c240.85978,-62.23004 59.43294,263.73682 58.96366,262.79844c-0.46927,-0.93838 -58.96366,-262.79844 -58.96366,-262.79844z" fill="orange" id="svg_1" opacity="0.8" stroke="#490606" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" transform="rotate(179.768 247 155.8)"/>
+            <path d="m94.52868,127.34889c240.85978,-62.23004 59.43294,263.73682 58.96366,262.79844c-0.46927,-0.93838 -58.96366,-262.79844 -58.96366,-262.79844z" fill="orange" id="svg_2" opacity="0.8" stroke="#490606" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" transform="rotate(90.1955 157 254.8)"/>
+            <path d="m284.52868,120.34889c240.85978,-62.23004 59.43294,263.73682 58.96366,262.79844c-0.46927,-0.93838 -58.96366,-262.79844 -58.96366,-262.79844z" fill="orange" id="svg_3" opacity="0.8" stroke="#490606" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" transform="rotate(-90.5422 347 247.8)"/>
+            <path d="m279.73493,228.98679c159.09854,-41.41141 39.25808,175.50549 38.94811,174.88103c-0.30998,-0.62445 -38.94811,-174.88103 -38.94811,-174.88103z" fill="orange" id="svg_4" opacity="0.8" stroke="#490606" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" transform="rotate(-42.8114 321 313.8)"/>
+            <path d="m139.35297,105.40983c159.09854,-41.41141 39.25808,175.50549 38.94811,174.88103c-0.30998,-0.62445 -38.94811,-174.88103 -38.94811,-174.88103z" fill="orange" id="svg_5" opacity="0.8" stroke="#490606" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" transform="rotate(137.275 180.618 190.223)"/>
+            <path d="m147.35297,234.40983c159.09854,-41.41141 39.25808,175.50549 38.94811,174.88103c-0.30998,-0.62445 -38.94811,-174.88103 -38.94811,-174.88103z" fill="orange" id="svg_6" opacity="0.8" stroke="#490606" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" transform="rotate(47.5411 188.618 319.223)"/>
+            <path d="m271.35297,97.40983c159.09854,-41.41141 39.25808,175.50549 38.94811,174.88103c-0.30998,-0.62445 -38.94811,-174.88103 -38.94811,-174.88103z" fill="orange" id="svg_7" opacity="0.8" stroke="#490606" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" transform="rotate(-133.14 312.618 182.223)"/>
+        </g>
+</svg>

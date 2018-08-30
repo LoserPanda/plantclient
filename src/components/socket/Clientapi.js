@@ -31,7 +31,7 @@ class Clientapi extends Component {
 
     render() {
         return (
-            <div>jou</div>
+            <div>Client API</div>
         );
     }
 }
