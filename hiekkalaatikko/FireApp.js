@@ -15,8 +15,8 @@ import AppProvider, {
 import Login from './Login';
 import Signup from './Signup';
 
-import Navbar from '../components/Navbar';
-import FlashMessage from '../components/FlashMessage';
+import Navbar from './Navbar';
+import FlashMessage from './FlashMessage';
 
 class App extends Component {
   render() {

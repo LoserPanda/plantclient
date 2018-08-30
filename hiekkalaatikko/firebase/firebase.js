@@ -1,5 +1,5 @@
 
-import * as firebase from 'firebase';
+import * as firebase from 'hiekkalaatikko/firebase/firebase';
 import { devConfig } from './config';
 
 !firebase.apps.length && firebase.initializeApp(devConfig);

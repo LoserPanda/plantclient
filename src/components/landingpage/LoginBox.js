@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import FireApp from '../FireApp'
 import Welcome from './Welcome'
+import AuthBox from "./AuthBox";
 
 class LoginBox extends Component {
 
@@ -12,7 +12,7 @@ class LoginBox extends Component {
                         <Welcome/>
                     </div>
                     <div className="col-sm-6">
-                        <FireApp/>
+                        <AuthBox/>
                     </div>
                 </div>
             </div>

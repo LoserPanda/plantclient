@@ -3,7 +3,7 @@ import React, {
   createRef
 } from 'react';
 import PropTypes from 'prop-types';
-import { auth } from '../firebase';
+import { auth } from '../firebase/index';
 
 class Form extends Component {
   constructor(props) {
