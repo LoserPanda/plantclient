@@ -22,4 +22,4 @@ yarn-error.log*
 
 README.md
 .idea
-/src/config
+src/config
