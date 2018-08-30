@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Login from "../login/Login";
+import Login from "../landingpage/Login";
 import NotFound from "../error/Not Found";
 import LineChart from "../charts/LineChart";
 import Home from "../home/Home";
